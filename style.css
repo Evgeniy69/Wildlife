@@ -1,0 +1,272 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url("assets/header-bg.jpg") no-repeat center top / cover;
+  padding-top: 19px;
+  color: #fff;
+  padding-bottom: 322px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.logo {
+  width: 70px;
+  height: 60px;
+  left: 120px;
+}
+
+.logoName {
+  font-size: 32px;
+  line-height: 60px;
+  margin-left: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.blog {
+  margin-left: 482px;
+  font-size: 23px;
+  line-height: 60px;
+}
+.contacts {
+  margin-left: 61px;
+  font-size: 23px;
+  line-height: 60px;
+}
+.search {
+  margin-left: 60px;
+  width: 32px;
+  height: 32px;
+  margin-top: 18px;
+}
+.button {
+  margin-top: 6px;
+  margin-left: 61px;
+  color: white;
+  padding: 10px 23px;
+  text-align: center;
+  display: inline-block;
+  font-size: 23px;
+  cursor: pointer;
+  border: 2px solid #cd6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.offer {
+  margin-top: 121px;
+}
+h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 2px;
+
+  /* /orange-main */
+
+  color: #cd6326;
+}
+.qoute {
+  font-size: 18px;
+  line-height: 27px;
+  color: #f7f7f7;
+  margin-top: 51px;
+}
+.donateButton {
+  background-color: #cd6326;
+  border: none;
+  color: #f7f7f7;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  border-radius: 5px;
+  width: 160px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 49px;
+  cursor: pointer;
+}
+.donateButton:hover {
+  background: #f2b824;
+}
+.section {
+  background: #cccccc;
+}
+.section h2 {
+  padding-top: 120px;
+  font-size: 48px;
+  color: #333333;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+.section h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #666666;
+  text-align: center;
+  margin-top: 20px
+  margin-bottom: 120px;
+}
+.slider {
+  display: flex;
+  margin-top: 120px;
+}
+.slide {
+  margin-right: 60px;
+}
+.Previus,
+.next {
+  margin-top: 150px;
+}
+.section h3 {
+	padding-top: 239px;
+	font-size: 27px;
+	color: #333333;
+	text-align: center;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+  }
+.image h4 {
+  color: #F7F7F7;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+bottom: 110px;
+position: relative;
+padding-right: 50px;
+}
+.image h5 {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+color: #F7F7F7;
+text-align: center;
+bottom: 100px;
+position: relative;
+padding-right: 50px;
+}
+.image {
+  position: relative;
+  width: 100%; /* для IE 6 */
+  }
+.footer {
+  background: url("assets/footer.jpg") no-repeat center top / cover;
+  padding-top: 19px;
+  color: #fff;
+
+}
+
+form.sendEMAIL input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #666666;
+  float: left;
+  width: 80%;
+  background: #CCCCCC;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+height: 60px;
+}
+
+form.sendEMAIL button {
+  float: left;
+  color: white;
+  font-size: 23px;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
+  cursor: pointer;
+  position: absolute;
+width: 120px;
+height: 60px;
+}
+
+form.sendEMAIL button:hover {
+  background: #f2b824;
+}
+
+form.sendEMAIL::after {
+ content: "";
+  clear: both;
+  display: table;
+}
+.footernav {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.articles {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+margin-left: 120px;
+margin-right: 86px;
+line-height: 60px;
+}
+.about, .learnmore {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+margin-right: 86px;
+line-height: 60px;
+}
+.instagram, .facebook, .pinterest, .telegram {
+  margin-right: 27px;
+  margin-top: 10px;
+}
+li:hover {
+  text-decoration: underline;
+}
+
+
